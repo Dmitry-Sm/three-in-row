@@ -1,0 +1,41 @@
+@import './_colors';
+
+$font-stack: Helvetica, sans-serif;
+$side: 60px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $green;
+}
+
+.page {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.blocks {
+    border-radius: 5px;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 50px;
+    height: 300px
+}
+
+.block {
+    position: absolute;
+    border-radius: 5px;
+    margin: 5px;
+    width: $side;
+    height: $side;
+}
+
+#score-label {
+    margin: 10px;
+    font-size: 28pt;
+    color: white;
+}
